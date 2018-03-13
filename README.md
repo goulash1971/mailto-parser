@@ -3,24 +3,24 @@ mail-parser - Module for MailTo parsing
 
 ### Overview
 
-MailTo-Parser is a module that provides functions for parsing `mailto:` URLs that is loosly based upon the standard 
-`url` module within `node`.  Parsing is derived from the **excellent** `parseUri` function by 
+MailTo-Parser is a module that provides functions for parsing `mailto:` URLs that is loosely based upon the standard
+`url` module within `node`.  Parsing is derived from the **excellent** `parseUri` function by
 [Steven Levithan](http://stevenlevithan.com), but stripped down for the `mailto` scheme.
 
 #### What's a `mailto:` URL?
 
-The best place to start if you want to know more about `mailto:` UTRLs (of course) the wikipedia article on
+The best place to start if you want to know more about `mailto:` URLs (of course) the wikipedia article on
 [MailTo](http://en.wikipedia.org/wiki/Mailto) and [MailTo Syntax](http://www.ianr.unl.edu/internet/mailto.html).
 
 ### Installation
 	npm install mailto-parser
 
 ### Using the Module
-The 'mailto-parser' module is accessed in the standard way by calling `require("mailto-parser");` and once loaded 
+The 'mailto-parser' module is accessed in the standard way by calling `require("mailto-parser");` and once loaded
 you have access to the following objects and functions.
 
 #### Class `mailto-parser.Parser`
-The `Parser` class is a wrapper object class that provides access to an object that can be 
+The `Parser` class is a wrapper object class that provides access to an object that can be
 used to parse `mailto:` instances.
 
 This class has the following interface:
@@ -61,4 +61,3 @@ MIT License
 ---
 ### Author
 Stuart Hudson		 
-
